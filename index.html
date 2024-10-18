@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <body>
+        <div class="product-container">
+            <div class="image-gallery">
+                <img id="main-image" src="acerMain.jpg" alt="Product Image">
+                <div class="thumbnail-container">
+                    <img class="thumbnail" src="acerMain.jpg" alt="Main Image" onclick="changeImage('acerMain.jpg')">
+                    <img class="thumbnail" src="acerSecond.jpg" alt="Product Image 2" onclick="changeImage('acerSecond.jpg')">
+                    <img class="thumbnail" src="acerThird.jpg" alt="Product Image 3" onclick="changeImage('acerThird.jpg')">
+                    <img class="thumbnail" src="acerFour.jpg" alt="Product Image 4" onclick="changeImage('acerFour.jpg')">
+                </div>
+            </div>
+            <div class="product-details">
+                <h2>Acer Aspire Lite</h2>
+                <p class="product-description">This is a high-quality product with amazing features and benefits.</p>
+                <p class="product-price">₹33,990</p>
+                <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+                <p id="cart-message"></p>
+            </div>
+        </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
